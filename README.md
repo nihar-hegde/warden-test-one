@@ -18,7 +18,9 @@ The focus here is **functionality rather than design**. This means the main prio
 
 Our Product team has identified that weather is a critical factor when people choose properties to stay at. In fact, some residents might even reject a job offer if the local weather doesn’t suit them. To address this, we need to enhance the property search experience by adding **live weather-based filters**.
 
-After a 6 hour meeting, following filters and constraints were finalized.
+The Marketing team is also planning to run a campaign that will bring a lot of traffic. So, along with Tech, all three teams meet to discuss what needs to be done.
+
+After a 9 hour meeting, following filters and constraints were finalized.
 
 | **Filter**             | **Input Type**          | **Allowed Range/Options**                                                                                                                                                                                                                     |
 | ---------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
