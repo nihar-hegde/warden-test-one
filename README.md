@@ -1,3 +1,12 @@
+backend hosted url `https://warden-test-one.onrender.com`
+
+# installation instructions
+
+1. clone the repo
+2. change .env.example to .env
+3. `npm install`
+4. `npm run dev`
+
 # 🏠 Weather to Stay or Not
 
 Welcome! This is an evaluation project for Warden.
