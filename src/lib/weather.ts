@@ -34,3 +34,16 @@ export function matchesWeatherGroup(
 
   return validGroups.some((g) => WeatherGroups[g].has(code));
 }
+
+// Map a weathercode → one of your group keys ("clear", "cloudy", etc.)
+export function getWeatherGroupLabel(code: number | null): WeatherGroup | null {
+  if (typeof code !== "number") return null;
+
+  for (const group of WEATHER_GROUP_KEYS) {
+    if (WeatherGroups[group].has(code)) {
+      return group;
+    }
+  }
+
+  return null;
+}
